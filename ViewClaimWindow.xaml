@@ -8,7 +8,8 @@
         Title="ViewClaimWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
-            <TextBlock Text="Submitted Claims:" Margin="0,0,0,5"/>
+            <!-- main field for view claims -->
+            <TextBlock Text="Submitted Claims:" Margin="0,0,0,5" Width="277" FontSize="36"/>
             <ListBox Name="ClaimsListBox" Height="200" />
 
             <!-- Buttons for Approving and Declining Claims -->
